@@ -1,0 +1,13 @@
+[package]
+name = "spotter"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = "0.6.19"
+minijinja = { version = "1.0.5", features = ["builtins"] }
+rspotify = "0.11.7"
+serde = { version = "1.0.180", features = ["derive"] }
+tokio = { version = "1.29.1", features = ["full"] }
